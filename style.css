@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food App</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="main_container">
+        <section class="nav_container">
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <a href="#home" class="left_head">Lorem<span>Ipsum</span></a>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about" class="first_link">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Cuisine">Cuisine</a></li>
+                    <li><a href="#Gallery">Gallery</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Book">Book</a></li>
+                </ul>
+            </nav>
+            <div>
+                <img id="icons" src="https://image.shutterstock.com/image-vector/shopping-cart-icon-vector-260nw-731433349.jpg" alt="icons">
+                <button>Cart</button>
+            </div>
+            
+        </section>
+
+        <section class="center_container">
+            
+               <h1>What are you <span>having for Lunch?</span></h1>
+               <section class="right_container">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  incididunt ut labore et.
+                    </p>
+               
+                
+                    <span class="bottom_line"></span>
+               </section>
+            
+            <div class="all_card">
+                <div class="row">
+                        <div class="card">
+                            <img style="border-radius: 40%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlnI25UEGNo68C7SMZUGohf8j40VL24IVNDQ&usqp=CAU" alt="farmhouse_pizza">
+                            <h2>Mexican Taco</h2>
+                        </div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <img style="border-radius: 40%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlnI25UEGNo68C7SMZUGohf8j40VL24IVNDQ&usqp=CAU" alt="farmhouse_pizza">
+                        <h2>Farmhouse Pizza</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <img style="border-radius: 40%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlnI25UEGNo68C7SMZUGohf8j40VL24IVNDQ&usqp=CAU" alt="farmhouse_pizza">
+                        <h2>Chicken Burger</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <img style="border-radius: 40%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlnI25UEGNo68C7SMZUGohf8j40VL24IVNDQ&usqp=CAU" alt="farmhouse_pizza">
+                        <h2>Loaded Nachos</h2>
+                    </div>
+                </div>
+
+                <div class="row remove">
+                    <div class="card">
+                        <img style="border-radius: 40%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlnI25UEGNo68C7SMZUGohf8j40VL24IVNDQ&usqp=CAU" alt="farmhouse_pizza">
+                        <h2>Hakka Noodles</h2>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
